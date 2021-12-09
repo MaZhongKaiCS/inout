@@ -107,7 +107,7 @@ export default {
       }
     },
     goTofistPage() {
-      this.$router.push({name: 'Home'})
+      this.$router.push({name: 'firstPage'})
     }
   },
   beforeDestroy() {
