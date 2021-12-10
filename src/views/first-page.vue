@@ -1,10 +1,10 @@
 <template>
     <div class="firstPage">
-         <div class="top">
+         <!-- <div class="top">
           <img src="../assets/img/left.png" alt="" class="jiantou">
           <span>出入申请</span>
           <img src="../assets/img/shenglue.png" alt="" class="shenglue">
-        </div>
+        </div> -->
         <h1>填写姓名与学号</h1>
         <div class="name">
             <h2>姓名：<input type="text" v-model.trim='studentName'></h2>
@@ -49,35 +49,35 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .top {
-        position: relative;
-        top: -10px;
-        height: 60px;
-        width: 400px;
-        background: #2dbaf7;
-        .jiantou {
-          position: absolute;
-          top: 28px;
-          left: 16px;
-          height: 20px;
-          width: 20px;
-        }
-        span {
-          color: #eee;
-          position: absolute;
-          top: 24px;
-          left: 168px;
-          font-size: 20px;
-          font-weight: bold;
-        }
-        .shenglue {
-          position: absolute;
-          top: 26px;
-          right: 24px;
-          height: 24px;
-          width: 24px;
-        }
-    }
+    // .top {
+    //     position: relative;
+    //     top: -10px;
+    //     height: 60px;
+    //     width: 400px;
+    //     background: #2dbaf7;
+    //     .jiantou {
+    //       position: absolute;
+    //       top: 28px;
+    //       left: 16px;
+    //       height: 20px;
+    //       width: 20px;
+    //     }
+    //     span {
+    //       color: #eee;
+    //       position: absolute;
+    //       top: 24px;
+    //       left: 168px;
+    //       font-size: 20px;
+    //       font-weight: bold;
+    //     }
+    //     .shenglue {
+    //       position: absolute;
+    //       top: 26px;
+    //       right: 24px;
+    //       height: 24px;
+    //       width: 24px;
+    //     }
+    // }
     .in-btn {
         width: 200px;
         height: 200px;

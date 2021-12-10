@@ -1,10 +1,10 @@
 <template>
   <div class="inBox">
-     <div class="top">
+     <!-- <div class="top">
       <img src="../assets/img/left.png" alt="" class="jiantou" @click="goTofistPage">
       <span>出入凭证</span>
       <img src="../assets/img/shenglue.png" alt="" class="shenglue">
-    </div>
+    </div> -->
     <div class="infoBox">
       <div class="title" style="text-align: center">
         <font class="typeTxt">入</font>校凭证
@@ -135,36 +135,36 @@ Date.prototype.format = function (fmt) {
 
 <style lang="scss">
 .inBox {
-  .top {
-    position: relative;
-    left:-30px;
-    top: -10px;
-    height: 60px;
-    width: 400px;
-    background: #2dbaf7;
-    .jiantou {
-      position: absolute;
-      top: 28px;
-      left: 34px;
-      height: 20px;
-      width: 20px;
-    }
-    span {
-      color: #eee;
-      position: absolute;
-      top: 24px;
-      left: 168px;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    .shenglue {
-      position: absolute;
-      top: 26px;
-      right: 12px;
-      height: 24px;
-      width: 24px;
-    }
-  }
+  // .top {
+  //   position: relative;
+  //   left:-30px;
+  //   top: -10px;
+  //   height: 60px;
+  //   width: 400px;
+  //   background: #2dbaf7;
+  //   .jiantou {
+  //     position: absolute;
+  //     top: 28px;
+  //     left: 34px;
+  //     height: 20px;
+  //     width: 20px;
+  //   }
+  //   span {
+  //     color: #eee;
+  //     position: absolute;
+  //     top: 24px;
+  //     left: 168px;
+  //     font-size: 20px;
+  //     font-weight: bold;
+  //   }
+  //   .shenglue {
+  //     position: absolute;
+  //     top: 26px;
+  //     right: 12px;
+  //     height: 24px;
+  //     width: 24px;
+  //   }
+  // }
   .infoBox {
     padding: 0 5px;
     line-height: 30px;
